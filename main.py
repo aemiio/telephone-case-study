@@ -2,7 +2,7 @@
 # Celajes, Jyra Mae C. & Luardo Crestalyn
 # BSCS 302A
 
-# Define cost calculation functions for each region and time
+# Cost calculation
 def american_region(time_code, day_code, duration_call):
     if time_code == 'A':
         if day_code == 'X':
@@ -119,7 +119,7 @@ def display_title():
 if __name__ == "__main__":
     display_title()
     menu()
-    # Taking user input for destination, time, day, and duration
+
     while True:
         try:
             destination_code = int(input("Enter destination code [1-4]: "))
